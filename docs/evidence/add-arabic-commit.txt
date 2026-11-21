@@ -1,0 +1,8 @@
+commit 2806b71c7f5e520f4e38bfef50e3fb865d903c77
+Author: Student <student@example.com>
+Date:   Sat Nov 21 13:43:10 2026 -0500
+
+    Add Arabic (ar, right-to-left) — stretch goal, single data file
+
+ src/i18n/locales/ar.json | 99 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 99 insertions(+)

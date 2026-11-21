@@ -1,0 +1,40 @@
+ RUN  v2.1.9 /home/claude/grand-events
+      Coverage enabled with v8
+ ✓ tests/eventService.test.js (10 tests) 7ms
+ ✓ tests/app.test.jsx (7 tests) 505ms
+ ✓ tests/i18n.test.js (8 tests) 22ms
+ ✓ tests/locales.test.js (16 tests) 40ms
+ ✓ tests/noHardcodedText.test.js (8 tests) 31ms
+ Test Files  5 passed (5)
+      Tests  49 passed (49)
+   Start at  13:48:41
+   Duration  4.04s (transform 157ms, setup 0ms, collect 395ms, tests 605ms, environment 1.71s, prepare 294ms)
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   98.76 |    90.25 |   93.84 |   98.76 |                   
+ src               |     100 |    71.42 |      80 |     100 |                   
+  App.jsx          |     100 |    71.42 |      80 |     100 | 48                
+ src/components    |     100 |    97.72 |   93.75 |     100 |                   
+  EventCard.jsx    |     100 |      100 |      80 |     100 |                   
+  EventForm.jsx    |     100 |    95.83 |     100 |     100 | 113               
+  EventList.jsx    |     100 |      100 |     100 |     100 |                   
+  ...eSwitcher.jsx |     100 |      100 |     100 |     100 |                   
+  SummaryBar.jsx   |     100 |      100 |     100 |     100 |                   
+ src/domain        |     100 |    90.47 |     100 |     100 |                   
+  event.js         |     100 |    88.88 |     100 |     100 | 27,83             
+  sampleEvents.js  |     100 |      100 |     100 |     100 |                   
+ src/hooks         |     100 |      100 |     100 |     100 |                   
+  useEvents.js     |     100 |      100 |     100 |     100 |                   
+ src/i18n          |   95.06 |    79.41 |   94.73 |   95.06 |                   
+  I18nContext.jsx  |   82.22 |    54.54 |   66.66 |   82.22 | 15-22             
+  formatters.js    |     100 |      100 |     100 |     100 |                   
+  ...leRegistry.js |     100 |      100 |     100 |     100 |                   
+  registryCore.js  |     100 |    73.68 |     100 |     100 | 11-15,31-33       
+  translate.js     |     100 |       84 |     100 |     100 | 16,32,34          
+ src/repository    |     100 |      100 |     100 |     100 |                   
+  ...Repository.js |     100 |      100 |     100 |     100 |                   
+ src/services      |     100 |      100 |   88.88 |     100 |                   
+  eventService.js  |     100 |      100 |   88.88 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------

@@ -1,0 +1,8 @@
+commit 76ec1d07d287db7b0dd19861e4786a1cbc0b4b31
+Author: Student <student@example.com>
+Date:   Sat Nov 21 13:42:46 2026 -0500
+
+    Add French (fr) — new language as a single data file
+
+ src/i18n/locales/fr.json | 85 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 85 insertions(+)
