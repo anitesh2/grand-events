@@ -1,0 +1,85 @@
+{
+  "_meta": { "name": "English", "intl": "en-US", "dir": "ltr" },
+  "app": {
+    "title": "Grand Harbor Events",
+    "subtitle": "Banquets, weddings & conferences planner",
+    "language": "Language",
+    "skip": "Skip to events"
+  },
+  "summary": {
+    "upcoming": "Upcoming events",
+    "guests": "Expected guests",
+    "revenue": "Estimated revenue"
+  },
+  "form": {
+    "newTitle": "New event",
+    "editTitle": "Edit event",
+    "name": "Event name",
+    "namePlaceholder": "e.g. Smith – Lee Wedding",
+    "type": "Event type",
+    "venue": "Venue",
+    "venueOption": "{venue} (max {capacity})",
+    "date": "Date",
+    "time": "Start time",
+    "guests": "Guests",
+    "pricePerGuest": "Price per guest (USD)",
+    "contact": "Client contact",
+    "contactPlaceholder": "email or phone",
+    "status": "Status",
+    "notes": "Notes",
+    "estimate": "Estimated total: {amount}",
+    "save": "Save event",
+    "update": "Update event",
+    "cancel": "Cancel",
+    "saved": "Event saved.",
+    "fixErrors": "Please fix the highlighted fields."
+  },
+  "list": {
+    "heading": "Event schedule",
+    "search": "Search by name or contact",
+    "filterStatus": "Filter by status",
+    "all": "All statuses",
+    "empty": "No events match. Create one with the form.",
+    "count": { "one": "{count} event", "other": "{count} events" },
+    "guests": { "one": "{count} guest", "other": "{count} guests" },
+    "perGuest": "{price} per guest",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Delete for good?",
+    "yes": "Yes, delete",
+    "no": "Keep",
+    "deleted": "Event deleted."
+  },
+  "types": {
+    "wedding": "Wedding",
+    "conference": "Conference",
+    "banquet": "Banquet",
+    "meeting": "Business meeting",
+    "gala": "Gala dinner"
+  },
+  "venues": {
+    "ballroom": "Grand Ballroom",
+    "terrace": "Garden Terrace",
+    "harborView": "Harbor View Hall",
+    "boardroom": "Executive Boardroom"
+  },
+  "statuses": {
+    "inquiry": "Inquiry",
+    "tentative": "Tentative",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled"
+  },
+  "errors": {
+    "nameRequired": "Enter an event name.",
+    "dateRequired": "Choose a date.",
+    "guestsInvalid": "Guests must be a whole number of 1 or more.",
+    "capacityExceeded": "This venue seats at most {capacity} guests.",
+    "priceInvalid": "Price cannot be negative.",
+    "invalid": "Invalid value.",
+    "notFound": "This event no longer exists."
+  },
+  "footer": {
+    "storage": "Data is stored only in this browser.",
+    "version": "Version {version}"
+  }
+}

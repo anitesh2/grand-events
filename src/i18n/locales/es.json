@@ -1,0 +1,85 @@
+{
+  "_meta": { "name": "Español", "intl": "es-ES", "dir": "ltr" },
+  "app": {
+    "title": "Eventos Grand Harbor",
+    "subtitle": "Planificador de banquetes, bodas y congresos",
+    "language": "Idioma",
+    "skip": "Ir a los eventos"
+  },
+  "summary": {
+    "upcoming": "Próximos eventos",
+    "guests": "Invitados previstos",
+    "revenue": "Ingresos estimados"
+  },
+  "form": {
+    "newTitle": "Nuevo evento",
+    "editTitle": "Editar evento",
+    "name": "Nombre del evento",
+    "namePlaceholder": "p. ej. Boda García – López",
+    "type": "Tipo de evento",
+    "venue": "Salón",
+    "venueOption": "{venue} (máx. {capacity})",
+    "date": "Fecha",
+    "time": "Hora de inicio",
+    "guests": "Invitados",
+    "pricePerGuest": "Precio por invitado (USD)",
+    "contact": "Contacto del cliente",
+    "contactPlaceholder": "correo o teléfono",
+    "status": "Estado",
+    "notes": "Notas",
+    "estimate": "Total estimado: {amount}",
+    "save": "Guardar evento",
+    "update": "Actualizar evento",
+    "cancel": "Cancelar",
+    "saved": "Evento guardado.",
+    "fixErrors": "Corrija los campos marcados."
+  },
+  "list": {
+    "heading": "Agenda de eventos",
+    "search": "Buscar por nombre o contacto",
+    "filterStatus": "Filtrar por estado",
+    "all": "Todos los estados",
+    "empty": "Ningún evento coincide. Cree uno con el formulario.",
+    "count": { "one": "{count} evento", "other": "{count} eventos" },
+    "guests": { "one": "{count} invitado", "other": "{count} invitados" },
+    "perGuest": "{price} por invitado",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Eliminar definitivamente?",
+    "yes": "Sí, eliminar",
+    "no": "Conservar",
+    "deleted": "Evento eliminado."
+  },
+  "types": {
+    "wedding": "Boda",
+    "conference": "Congreso",
+    "banquet": "Banquete",
+    "meeting": "Reunión de negocios",
+    "gala": "Cena de gala"
+  },
+  "venues": {
+    "ballroom": "Gran Salón de Baile",
+    "terrace": "Terraza Jardín",
+    "harborView": "Sala Vista al Puerto",
+    "boardroom": "Sala de Juntas Ejecutiva"
+  },
+  "statuses": {
+    "inquiry": "Consulta",
+    "tentative": "Provisional",
+    "confirmed": "Confirmado",
+    "cancelled": "Cancelado"
+  },
+  "errors": {
+    "nameRequired": "Introduzca un nombre para el evento.",
+    "dateRequired": "Elija una fecha.",
+    "guestsInvalid": "Los invitados deben ser un número entero mayor o igual a 1.",
+    "capacityExceeded": "Este salón admite como máximo {capacity} invitados.",
+    "priceInvalid": "El precio no puede ser negativo.",
+    "invalid": "Valor no válido.",
+    "notFound": "Este evento ya no existe."
+  },
+  "footer": {
+    "storage": "Los datos se guardan solo en este navegador.",
+    "version": "Versión {version}"
+  }
+}
