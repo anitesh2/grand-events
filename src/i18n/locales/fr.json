@@ -1,0 +1,85 @@
+{
+  "_meta": { "name": "Français", "intl": "fr-FR", "dir": "ltr" },
+  "app": {
+    "title": "Événements Grand Harbor",
+    "subtitle": "Planificateur de banquets, mariages et conférences",
+    "language": "Langue",
+    "skip": "Aller aux événements"
+  },
+  "summary": {
+    "upcoming": "Événements à venir",
+    "guests": "Invités attendus",
+    "revenue": "Chiffre d'affaires estimé"
+  },
+  "form": {
+    "newTitle": "Nouvel événement",
+    "editTitle": "Modifier l'événement",
+    "name": "Nom de l'événement",
+    "namePlaceholder": "ex. Mariage Dupont – Martin",
+    "type": "Type d'événement",
+    "venue": "Salle",
+    "venueOption": "{venue} (max. {capacity})",
+    "date": "Date",
+    "time": "Heure de début",
+    "guests": "Invités",
+    "pricePerGuest": "Prix par invité (USD)",
+    "contact": "Contact client",
+    "contactPlaceholder": "e-mail ou téléphone",
+    "status": "Statut",
+    "notes": "Remarques",
+    "estimate": "Total estimé : {amount}",
+    "save": "Enregistrer",
+    "update": "Mettre à jour",
+    "cancel": "Annuler",
+    "saved": "Événement enregistré.",
+    "fixErrors": "Veuillez corriger les champs signalés."
+  },
+  "list": {
+    "heading": "Programme des événements",
+    "search": "Rechercher par nom ou contact",
+    "filterStatus": "Filtrer par statut",
+    "all": "Tous les statuts",
+    "empty": "Aucun événement trouvé. Créez-en un avec le formulaire.",
+    "count": { "one": "{count} événement", "many": "{count} d'événements", "other": "{count} événements" },
+    "guests": { "one": "{count} invité", "many": "{count} d'invités", "other": "{count} invités" },
+    "perGuest": "{price} par invité",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirmDelete": "Supprimer définitivement ?",
+    "yes": "Oui, supprimer",
+    "no": "Garder",
+    "deleted": "Événement supprimé."
+  },
+  "types": {
+    "wedding": "Mariage",
+    "conference": "Conférence",
+    "banquet": "Banquet",
+    "meeting": "Réunion d'affaires",
+    "gala": "Dîner de gala"
+  },
+  "venues": {
+    "ballroom": "Grande Salle de Bal",
+    "terrace": "Terrasse du Jardin",
+    "harborView": "Salle Vue sur le Port",
+    "boardroom": "Salle du Conseil"
+  },
+  "statuses": {
+    "inquiry": "Demande",
+    "tentative": "Option",
+    "confirmed": "Confirmé",
+    "cancelled": "Annulé"
+  },
+  "errors": {
+    "nameRequired": "Saisissez un nom d'événement.",
+    "dateRequired": "Choisissez une date.",
+    "guestsInvalid": "Le nombre d'invités doit être un entier supérieur ou égal à 1.",
+    "capacityExceeded": "Cette salle accueille au maximum {capacity} invités.",
+    "priceInvalid": "Le prix ne peut pas être négatif.",
+    "invalid": "Valeur non valide.",
+    "notFound": "Cet événement n'existe plus."
+  },
+  "footer": {
+    "storage": "Les données sont stockées uniquement dans ce navigateur.",
+    "version": "Version {version}"
+  }
+}
